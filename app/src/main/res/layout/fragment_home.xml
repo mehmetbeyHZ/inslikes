@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+        <TextView
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-thin"
+            android:textAlignment="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textAlignment="center"
+            android:text="@string/login_description"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <LinearLayout
+            android:id="@+id/authorize"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/card_custom1"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                app:tint="@color/white"
+                android:src="@drawable/ic_baseline_login_24"
+                android:layout_width="16sp"
+                android:layout_height="16sp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp"
+                android:text="@string/authorize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="24dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_height="24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/goPrivacy"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/edittext"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                app:tint="@color/white"
+                android:src="@drawable/ic_baseline_verified_user_24"
+                android:layout_width="16sp"
+                android:layout_height="16sp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp"
+                android:text="@string/privacy_policy"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="24dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_height="24dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

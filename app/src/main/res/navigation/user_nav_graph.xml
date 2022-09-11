@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_nav_graph"
+    app:startDestination="@id/followFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_follow"
+        android:id="@+id/followFragment"
+        android:name="com.ghostech.inslikes.ui.follow.FollowFragment"
+        android:label="FollowFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_like"
+        android:id="@+id/likeFragment"
+        android:name="com.ghostech.inslikes.ui.like.LikeFragment"
+        android:label="LikeFragment" />
+
+
+</navigation>

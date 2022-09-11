@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_auth.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_home"
+        android:id="@+id/homeFragment"
+        android:name="com.ghostech.inslikes.ui.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_privacyFragment"
+            app:destination="@id/privacyFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_login"
+        android:id="@+id/loginFragment"
+        android:name="com.ghostech.inslikes.ui.login.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        tools:layout="@layout/fragment_privacy"
+        android:id="@+id/privacyFragment"
+        android:name="com.ghostech.inslikes.ui.privacy.PrivacyFragment"
+        android:label="PrivacyFragment" />
+</navigation>

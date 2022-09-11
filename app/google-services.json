@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639561107225",
+    "project_id": "ghost-1e911",
+    "storage_bucket": "ghost-1e911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639561107225:android:1cd72c095f195f9db16788",
+        "android_client_info": {
+          "package_name": "com.ghostech.inslikes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639561107225-mhalbm0pdnqbl8ptahd9ecftjdc5peuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGh3xyCNBWUALvNxa4wUfoApj2oTalfvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639561107225-mhalbm0pdnqbl8ptahd9ecftjdc5peuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

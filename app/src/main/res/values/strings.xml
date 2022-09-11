@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InsLikes</string>
+    <string name="authorize">Oturum Aç</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="an_error_occurred">Bir hata oluştu</string>
+    <string name="three_dot">…</string>
+    <string name="login_description">Takip ve Beğeni Sosyal Medya Asistanı</string>
+</resources>

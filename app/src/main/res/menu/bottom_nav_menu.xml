@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/followFragment"
+        android:title="User"
+        android:icon="@drawable/ic_user"/>
+    <item
+        android:id="@+id/likeFragment"
+        android:title="Favorites"
+        android:icon="@drawable/ic_heart_24"/>
+
+    <item
+        android:id="@+id/refreshFragment"
+        android:title="Refresh"
+        android:icon="@drawable/ic_baseline_refresh_24"/>
+
+    <item
+        android:id="@+id/logoutTheApp"
+        android:title="Logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+</menu>
